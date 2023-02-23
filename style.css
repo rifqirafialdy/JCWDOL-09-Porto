@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ededed;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.navbar div {
+    display: flex;
+    justify-content: space-between;
+    gap: 11px;
+}
+
+.navbar div.word p:hover {
+    color: bisque;
+    cursor: pointer;
+}
